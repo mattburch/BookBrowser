@@ -14,6 +14,7 @@ import (
 	"syscall"
 	"time"
 
+	_ "BookBrowser/formats/cbz"
 	_ "github.com/geek1011/BookBrowser/formats/epub"
 	_ "github.com/geek1011/BookBrowser/formats/mobi"
 	_ "github.com/geek1011/BookBrowser/formats/pdf"
